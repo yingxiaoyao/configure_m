@@ -1,4 +1,4 @@
-# 思派员工平台公众号
+# 移动端基础配置
 
 > A Vue.js project
 
@@ -23,4 +23,8 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ```
 # px2rem
 根据移动端适配设置，设计图以750px为基数设计
+
+sass / eslint / axios / vuex / flexible / px2rem 
+sass 基础变量表
+
 ```
