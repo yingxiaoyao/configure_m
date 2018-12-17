@@ -1,0 +1,30 @@
+
+$theme : #f00;       // 主题色
+
+$green: #169f56;
+$white: #fff;
+
+$black: #353535;
+$black-76: #767676;
+$black-62: #626262;
+$black-51: #515151;
+$black-35: #353535;
+
+$gray-fa: #fafafa;
+$gray-f3: #f3f3f3;
+$gray-ed: #ededed;
+$gray-cc: #ccc;
+$gray-bc: #bcbcbc;
+$gray-ac: #acacac;
+$gray-e5: #e5e5e5;
+
+
+@function px2rem($px, $base: 75){
+    @return ($px / $base) + rem;
+};
+
+@function rem2px($rem, $base: 75){
+    @return ($rem * $base) + px;
+};
+
+
